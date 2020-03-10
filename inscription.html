@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>mobili</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/inscription.css" rel="stylesheet">
+  <link href="css/addons-pro/stepper.css" rel="stylesheet">
+</head>
+
+<body>
+
+      <!-- Navigation -->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container smooth-scroll">
+            <a class="navbar-brand" href="#"><strong>mobili</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="trajet.html" data-offset="60">Recherche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger " href="#products" data-offset="60">Proposer un trajet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger " href="inscription.html" data-offset="60">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger " href="templates/login-page.html" data-offset="60">Connexion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<!--Navigation -->
+
+    <ul class="stepper horizontal" id="horizontal-stepper">
+        <li class="step active">
+          <div class="step-title waves-effect waves-dark">Qui être vous ?</div>
+          <div class="step-new-content">
+            <div class="form-row">
+              <div class="mb-3 md-form">
+                <select class="mdb-select" required>
+                  <option value="1">conducteur</option>
+                  <option value="2">passager</option>
+                </select>
+                <div class="invalid-feedback">conducteur ou passager</div>
+              </div>
+            </div>
+            <div class="step-actions">
+              <button class="waves-effect waves-dark btn btn-sm next-step btn-rounded btn-yellow" data-feedback="someFunction21">CONTINUE</button>
+            </div>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-title waves-effect waves-dark">Présentation</div>
+          <div class="step-new-content">
+            <div class="row">
+              <div class="md-form col-6 ml-auto">
+                <input id="password-horizontal" type="text" class="validate form-control" required>
+                <label for="password-horizontal">votre nom svp !</label>
+              </div>
+
+              <div class="md-form col-6 ml-auto">
+                <input id="password-horizontal" type="text" class="validate form-control" required>
+                <label for="password-horizontal">votre Prenom svp !</label>
+              </div>
+            </div>
+            <div class="step-actions">
+              <button class="waves-effect waves-dark btn btn-sm next-step btn-rounded btn-yellow" data-feedback="someFunction21">CONTINUE</button>
+              <button class="waves-effect waves-dark btn btn-sm btn-danger previous-step btn-rounded">RETOUR</button>
+            </div>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-title waves-effect waves-dark">Coordonner</div>
+          <div class="step-new-content">
+            <div class="row">
+              <div class="md-form col-3">
+                <input id="password-horizontal" type="text" class="validate form-control" required>
+                <label for="password-horizontal">Adresse mail</label>
+              </div>
+
+              <div class="md-form col-3 ml-5">
+                <input id="password-horizontal" type="text" class="validate form-control" required>
+                <label for="password-horizontal">Le numero de telephone</label>
+              </div>
+
+              <div class="md-form col-3 ml-5">
+                <input id="password-horizontal" type="text" class="validate form-control" required>
+                <label for="password-horizontal">Choissier votre nom de passe</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  cliquer pour Accepter nos conditions
+                </label>
+              </div>
+            <div class="step-actions">
+              <button class="waves-effect waves-dark btn-sm btn btn-yellow m-0 mt-4 btn-rounded" type="button">SUBMIT</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+  
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/addons-pro/stepper.min.js"></script>
+  <script type="text/javascript" src="js/inscription.js"></script>
+</body>
+
+</html>
